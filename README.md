@@ -1,31 +1,19 @@
 # Problem Statement 
-This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data).
+Medical Image Analysis is used to process medical images like X-rays(here),CT Scans etc. Here, we will classify whether or not that person suffers from a disease or not.
+Moreover, it can also be used for plant disease prediction as well.
 ## Dataset
 
-The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset). 
+The dataset used is the Chest X-Ray Images (Pneumonia)(https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) from Kaggle.
 
-The 3 class labels are:
+Task : Classification
+
+The 2 class labels are:
 <br>
 
-**1. Iris Setosa:** Given iris flower belongs to the Setosa species
+**1. Pneumonia:** Given X-Ray is of a person suffering from Pneumonia.
 <br>
-**2. Iris Virginica:** Given iris flower belongs to the Virginica species
-<br>
-**3. Iris Versicolor:** Given iris flower belongs to the Versicolor species
 
-If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
-
-**Target Variable: SalePrice**
-<br>
-<br>
-Sale Price refers to the selling price of the house.
-<br>
-**Mean Selling Price:** 121,000$
-<br>
-**Max Selling Price:** 1,000,000$
-<br>
-**Min Selling Price:** 45,000$
-
+**2. Normal:** Given X-Ray is of a normal person.
 
 ## Model(s) Used
 
@@ -40,4 +28,4 @@ The network architecture used was a basic CNN model, with Max Pooling and ReLU A
 **Max Pooling:** A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
 
 ## Future Work
-Good ideas or strategies that you were not able to implement which you think can help  improve performance.
+To apply much better image processing techniques and training deep learning models.
