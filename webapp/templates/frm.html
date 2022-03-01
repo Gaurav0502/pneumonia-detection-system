@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pneumonia Detector</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/frm.css') }}">
+    </head>
+    <body>
+      <div class="main">
+        <div class="imageback">
+          <img src="{{ url_for('static', filename='images/bimage.jpg') }}" height="260px" width="330px" alt="No image">
+        </div>
+        <form method="post">
+          <div class="imageInput">
+              <h2>Pneumonia Detection System</h2>
+              
+            <div class="file-input">
+                <input type="file" id="file" class="file">
+                <label for="file">Upload Lung X-Ray Image</label>
+            </div> 
+            <div class="submitbtn">
+                <button type="submit" class="btn" formaction="#">Predict the Diagnosis</button>
+            </div> 
+          </div>
+        </form>
+      </div>
+    </body>
+</html>

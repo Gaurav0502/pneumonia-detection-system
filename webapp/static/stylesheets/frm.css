@@ -1,0 +1,73 @@
+.file 
+{
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+h2
+{
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.file-input label 
+{
+    margin-bottom:50px;
+    margin-left: 65px;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.btn
+{
+    width: 310px;
+    height: 40px;
+    border-radius: 25px;
+    background: orange;
+    margin-bottom:10px;
+    margin-left: 15px;
+    display: block;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imageInput
+{
+    border-width: 1px;
+    width: 330px;
+    border-left-style: solid;
+    margin-top: 150px;
+    margin-left: 450px;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.imageback
+{
+    float: left;
+}
+
+.main
+{
+    margin-left: 360px;
+    margin-top: 200px;
+}
+
