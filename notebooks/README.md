@@ -16,8 +16,9 @@
   d. Multilayer Perceptron  
  
 - Model_Training_Neural_Network notebook contains the following:
+For a neural network  :
  1. Implementation
  2. Model Testing
  3. Accuracy and Loss    
- For a Neural Network
+ 
 
