@@ -15,8 +15,7 @@
   c. Supported Vector Machines  
   d. Multilayer Perceptron  
  
-- Model_Training_Neural_Network notebook contains the following:  
-For a neural network  :
+- Model_Training_Neural_Network notebook contains the following for neural networks:
  1. Implementation
  2. Model Testing
  3. Accuracy and Loss    
