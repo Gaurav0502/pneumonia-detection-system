@@ -18,6 +18,6 @@
 - Model_Training_Neural_Network notebook contains the following:
  1. Implementation
  2. Model Testing
- 3. Accuracy and Loss  
-For a Neural Network
+ 3. Accuracy and Loss    
+ For a Neural Network
 
