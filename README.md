@@ -17,15 +17,25 @@ The 2 class labels are:
 
 ## Model(s) Used
 
-This needs to be a description of the model used and a brief overview of how it works in theory (e.g taken of a CNN Model): 
+Various models were trained with the grayscale X-Rays like :
 
-The network architecture used was a basic CNN model, with Max Pooling and ReLU Activation functions. Input images are resized to an optimal size and then fed into the **Convolutional layer**. These images are converted to their pixel values, which can be imagined as a three-dimensional matrix for the purpose of visualization. The **Convolutional layer** has a kernel. This kernel is generally a small matrix of specified kernel size mxnx3 (3 for RGB images). 
+1. Binary Logistic Regression.
+2. K- Nearest Neighbours (KNN).
+3. Support Vector Machines (SVM).
+4. Multilayer Perceptron (MLP).
+5. Neural Network.
+
 <br>
 
-**Rectified Linear Unit (ReLU)** is the activation layer used in CNNs.The activation function is applied to increase non-linearity in the CNN. Images are made of different objects that are not linear to each other.
+**Binary Logistic Regression** is a Supervised Learning model in which the sigmoid function is used to predict a categorical dependent variable (here, X-Ray type) based on a given set of independent variables.
 
 
-**Max Pooling:** A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
+**K-Nearest Neighbours** is a Supervised Learing model in which is used for both classification and regression tasks. Here, we use KNN for classifying the type of Lung X-Ray. This algorithm classifies test values based k-nearest train values usually based on <i>Euclidean distance</i> metric.
+
+**Support Vector Machines** is a Supervised Learning model which can be used for both classification and regression problems. The main idea behind this algorithm is estimate the best possible decision boundary to segreggate a n-dimensional space called <i>hyperplanes</i>. For a new set of independent variables it classifies the dependent variable based on the distance boundary or hyperplane.
+
+**Multilayer Perceptron** is a Supervised Learning model which is majorly used for classification tasks. It is type <i>feedforward Artificial Neural Network</i> that generates a set of outputs from a set of inputs. Diagrammatically, it is a directed graph with the outermost layers as the input and output layers and the intermediate layers referred to as inner layers. The model is trained using <i>back propagation technique</i>.
+
 
 ## Future Work
 To apply much better image processing techniques and training deep learning models.
