@@ -21,10 +21,10 @@ def upload():
         filename = photos.save(request.files["photo"],name="xray.jpg")
         print(filename)
         x = i.getPixelAsRowVector()
-        ## Load pkl file.
-        ## Predict the result.
-        ## Return the result.
-    return render_template("upload.html")
+        with open(f'neuralnetmodel.pkl', 'rb') as f:
+            model = pickle.load(f)
+        prediction = model.predict(x)
+    return render_template("upload.html",prediction =prediction)
 
 
 if __name__ == "__main__":
