@@ -1,1 +1,8 @@
-<h1>Image uploaded</h1>
+<h1>Results</h1>
+    <div class="results">
+        {%if prediction%}
+        <h2 style="color:red;">Looks like a {{ prediction }} xray ! </h2>
+        {%else%}
+         <h2 style="color:red;">Nothing to predict ! </h2>
+        {%endif%}
+    </div>
