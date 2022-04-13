@@ -9,16 +9,15 @@
         <div class="imageback">
           <img src="{{ url_for('static', filename='images/bimage.jpg') }}" height="260px" width="330px" alt="No image">
         </div>
-        <form method="post">
+        <form method="post" action="{{ url_for('upload') }}" enctype="multipart/form-data">
           <div class="imageInput">
               <h2>Pneumonia Detection System</h2>
-              
             <div class="file-input">
-                <input type="file" id="file" class="file">
+                <input type="file" id="file" class="file" name="photo">
                 <label for="file">Upload Lung X-Ray Image</label>
             </div> 
             <div class="submitbtn">
-                <button type="submit" class="btn" formaction="#">Predict the Diagnosis</button>
+                <input type="submit" value="Predict" class="btn">
             </div> 
           </div>
         </form>
