@@ -36,6 +36,9 @@ Various models were trained with the grayscale X-Rays like :
 
 **Multilayer Perceptron** is a Supervised Learning model which is majorly used for classification tasks. It is type <i>feedforward Artificial Neural Network</i> that generates a set of outputs from a set of inputs. Diagrammatically, it is a directed graph with the outermost layers as the input and output layers and the intermediate layers referred to as inner layers. The model is trained using <i>back propagation technique</i>.
 
+# Blog Link
+The project is documented as a <a href="https://medium.com/@prasham1515/pneumonia-detection-system-ea42928b938a">medium article</a>.
+
 
 ## Future Work
 To apply much better image processing techniques and training deep learning models.
