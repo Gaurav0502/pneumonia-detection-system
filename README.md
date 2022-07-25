@@ -42,3 +42,7 @@ The project is documented as a <a href="https://medium.com/@prasham1515/pneumoni
 
 ## Future Work
 To apply much better image processing techniques and training deep learning models.
+
+# Contributors
+Gaurav Pendharkar https://github.com/Gaurav0502.  
+Prasham Titiya  https://github.com/prasham1515.
